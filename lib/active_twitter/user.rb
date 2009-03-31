@@ -13,11 +13,11 @@ module ActiveTwitter
       end
     end
     
-    def followers(params = nil)
+    def followers(params = {})
       self.class.followers(params.merge(id_params))
     end
     
-    def follower_ids(params = nil)
+    def follower_ids(params = {})
       self.class.follower_ids(params.merge(id_params))
     end
     
