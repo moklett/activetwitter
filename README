@@ -1,0 +1,22 @@
+ActiveTwitter
+=============
+
+A Twitter API client based on ActiveResource.  ActiveTwitter attempts to provide a more REST-like
+interface to the actual Twitter API, while also providing fun syntax for common methods.
+
+For example:
+
+  ActiveTwitter.my.tweets
+
+
+ActiveTwitter is a work in progress.  It may not do what you want or expect.
+
+TODO
+=======
+
+* Tests
+* Completion of API
+* Tests
+* Documentation
+
+Copyright (c) 2009 Michael Klett, released under the MIT license
